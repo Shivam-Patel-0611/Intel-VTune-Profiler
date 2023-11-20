@@ -45,12 +45,10 @@ void multiplyMatrices(int firstMatrix[][N], int secondMatrix[][N], int mult[][N]
 		{
 			for(k=0; k < N; ++k)
 			{
-																													mult[i][j] += firstMatrix[i][k] * secondMatrix[k][j];
-																					
+				mult[i][j] += firstMatrix[i][k] * secondMatrix[k][j];																		
 			}
-																												}
-																											}
-		
+		}
+	}
 }
 
 void display(int mult[][N])
